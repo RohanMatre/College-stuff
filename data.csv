@@ -1,0 +1,51 @@
+No,Customer_ID,Food_Id,Food_Name,Rating,Review
+1,1,F001,Veg_Burger,4.4,Good but still improve
+2,1,F002,Cheese Burger,4.8,Crispy and delicious
+3,2,F003,French Fries,5.0,Perfectly cheesy
+4,3,F004,Pizza,4.6,Finger-licking good
+5,4,F005,Sandwich,4.9,Rich and indulgent
+6,5,F006,Sandwich
+7,2,F007,Veg_Burger,4.7,Exquisite flavors
+8,3,F008,French Fries,4.5,Refreshingly tasty
+9,1,F009,Cheese Burger,4.6,Juicy and tender
+10,4,F010,Pizza,4.8,Creamy and savory
+11,5,F011,Sandwich,4.3,Satisfying lunch option
+12,2,F012,French Fries,4.9,Decadent dessert choice
+13,3,F013,Pizza
+14,4,F014,Cheese Burger,4.5,Tropical and refreshing
+15,1,F015,Sandwich,4.2,Bold and spicy flavors
+16,2,F016,French Fries,4.6,Fluffy and delightful
+17,5,F017,Pizza,4.8,Healthy and Instagram-worthy
+18,3,F018,Cheese Burger,4.7,Rich and fudgy
+19,4,F019,Sandwich,4.4,Comforting and warm
+20,1,F020,French Fries,4.5,Classic comfort food
+21,2,F021,Sandwich,4.2,Fresh and crisp
+22,5,F022,Cheese Burger,4.6,Filling and flavorful
+23,3,F023,Pizza,4.8,Perfectly tangy
+24,4,F024,Sandwich
+25,1,F025,French Fries,4.7,Chewy and satisfying
+26,2,F026,Veg_Burger,4.5,Healthy breakfast option
+27,5,F027,Sandwich,4.6,Smoky and tender
+28,3,F028,French Fries,4.3,Freshly squeezed goodness
+29,4,F029,Pizza,4.9,Complex and flavorful
+30,1,F030,French Fries,4.8,Herb-infused delightss
+31,2,F031,Cheese Burger,4.7,Sweet and savory fusion
+32,5,F032,Sandwich,4.2,Colorful and refreshing
+33,3,F033,Pizza,4.5,Authentic Mexican taste
+34,4,F034,French Fries,4.3,Cheesy indulgence
+35,1,F035,Sandwich,4.6,All-American dessert
+36,2,F036,Sandwich
+37,5,F037,Cheese Burger,4.5,Hearty and spicy
+38,3,F038,French Fries,4.4,Crispy and addictive
+39,4,F039,Sandwich,4.7,Buttery and garlicky
+40,1,F040,Pizza,4.6,Creamy and earthy
+41,2,F041,Cheese Burger,4.9,Tangy and refreshing
+42,5,F042,Sandwich,4.4,Crisp and golden
+43,3,F043,Pizza
+44,4,F044,Cheese Burger,4.5,Sweet and aromatic
+45,1,F045,Sandwich,4.3,Healthy and flavorful
+46,2,F046,Sandwich,4.8,Southern classic
+47,5,F047,Sandwich,4.6,Sweet and savory balance
+48,3,F048,Cheese Burger,4.5,Fruity and vibrant
+49,4,F049,Cheese Burger,4.7,Hearty and satisfying
+50,1,F050,Pizza,4.6,Exotic and aromatic
