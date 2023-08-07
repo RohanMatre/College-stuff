@@ -1,0 +1,6 @@
+OS:Ubuntu
+OS_VERSION:18.02
+PYTHON:3.7
+numpy==1.21
+pandas==0.20.3
+tensortflow==1.13.1
