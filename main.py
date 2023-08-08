@@ -1,24 +1,40 @@
-import os
+with open("requirement.txt","r") as f:
 
-current_file_path = os.path.abspath(__file__)
-current_directory = os.path.dirname(current_file_path)
-os.chdir(current_directory)
+    lines = []
+    for line in f.readlines():
+        lines.append(line.strip())
+    print(lines)
 
-cwd = os.getcwd()
+    os = lines[0].split(":")
 
-folders = [folder for folder in os.listdir(cwd) if os.path.isdir(os.path.join(cwd,folder))]
+    if(os[0] != "OS"):
+        raise OSNotFound(Exception)
+    else:
+        print("OS Found")
 
-all_files = []
+    if(os[1] != "Ubuntu"):
+        raise OSNotSupported(Exception)
+    else:
+        print("Ubuntu Found")    
 
-for folder in folders:
-    
-    folder_path = os.path.join(cwd,folder)
-    all_files.append([file for file in os.listdir(folder_path)])
+    version = lines[1].split(":")
 
-common_files = [file for file in set.intersection(*[set(files) for files in all_files])]
+    if version!="OS_VERSION":
+        raise OSVersionNotfound(Exception)
+    else:
+        print("Version Found")      
 
-for file in common_files:
-    print(file, end='\t')
+    pythonversion = lines[2].split(":")
 
-    f = open(os.path.join(cwd,folders[0],file), 'r')
-    print(f.read())
+    if pythonversion!="PYTHON":
+        raise Python(Exception)  
+    else:
+        print("PYTHON Found")      
+
+    if len(lines) == 3:
+        raise PythonLibrariesNotFound(Exception)
+        
+    for line in lines[4:]:
+            else:
+            print("Python libraries found")
+
