@@ -1,40 +1,44 @@
-with open("requirement.txt","r") as f:
+from exception import *
 
-    lines = []
-    for line in f.readlines():
-        lines.append(line.strip())
-    print(lines)
+with open('requirement.txt', 'r') as f:
 
-    os = lines[0].split(":")
+    lines = [line.strip() for line in f.readlines()]
 
-    if(os[0] != "OS"):
-        raise OSNotFound(Exception)
-    else:
-        print("OS Found")
+    info = {k: v for line in lines[:3]
+            if ':' in line for k, v in [line.split(':')]}
 
-    if(os[1] != "Ubuntu"):
-        raise OSNotSupported(Exception)
-    else:
-        print("Ubuntu Found")    
+    if info.get('OS') == None or info['OS'] == '':
+        raise Os_Not_found('OS not found')
 
-    version = lines[1].split(":")
+    if info['OS'].lower() != 'ubuntu':
+        raise Os_not_ubuntu('OS is not Ubuntu')
 
-    if version!="OS_VERSION":
-        raise OSVersionNotfound(Exception)
-    else:
-        print("Version Found")      
+    if info.get('OS_Version') == None or info['OS_Version'] == '':
+        raise Os_version_not_found('OS Version not found')
 
-    pythonversion = lines[2].split(":")
+    if info.get('Python') == None or info['OS'] == '':
+        raise Python_version_not_found('Python version has not been mentioned')
 
-    if pythonversion!="PYTHON":
-        raise Python(Exception)  
-    else:
-        print("PYTHON Found")      
+    if len(info) == len(lines):
+        raise Library_not_found('No libraries found in the requirements file')
 
-    if len(lines) == 3:
-        raise PythonLibrariesNotFound(Exception)
-        
-    for line in lines[4:]:
-            else:
-            print("Python libraries found")
+    libraries = {}
+    for line in lines[len(info):]:
+        if '==' in line:
+            k, v = line.split('==')
+            libraries[k] = v
+        elif line != '':
+            raise OLibrary_version_not_found(f"No version mentioned for {line}")
 
+    if len(libraries) == 0:
+        raise Library_not_found('No libraries found in the requirements file')
+
+with open('Dockerfile', 'w') as f:
+    f.write(f"FROM {info['OS'].lower()}:{info['OS_Version']}\n\n")
+    f.write(f"RUN apt-get install python{info['Python']}\n\n")
+
+    for library in libraries:
+        f.write(
+            f"RUN python3 -m pip install {library}=={libraries[library]}\n")
+
+    f.write(f'\nRUN echo "Compilation Successful"\n')
