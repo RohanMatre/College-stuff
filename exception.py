@@ -1,26 +1,36 @@
-class ExceptionEx(Exception):
-    def __init__(self, string):
-        self.string = string
-        super().__init__(self.string)
-        print("Error:", self.string)
+class Os_Not_found(Exception):
+    def _init_(self,message):
+        self.message=message
+        super()._init_(message)
+        self.error_code=392
 
-try:
-    with open("sample.txt", "r") as f:
-        for line in f:
-            line = line.strip()  # Remove leading/trailing whitespace
-            if line == "Hello":
-                print(line)
-            else:
-                raise ExceptionEx("Line does not match 'Hello'")
-except ExceptionEx as ee:
-    print(ee)
-except FileNotFoundError:
-    print("Error: File 'sample.txt' not found")
-except Exception as e:
-    print("An unexpected error occurred:", e)
+class Os_not_ubuntu(Exception):
+    def _init_(self,message):
+        self.message=message
+        super()._init_(message)
+        self.error_code=394
 
 
+class Os_version_not_found(Exception):
+    def _init_(self,message):
+        self.message=message
+        super()._init_(message)
+        self.error_code=396
 
+class Python_version_not_found(Exception):
+    def _init_(self,message):
+        self.message=message
+        super()._init_(message)
+        self.error_code=398
 
+class Library_not_found(Exception):
+    def _init_(self,message):
+        self.message=message
+        super()._init_(message)
+        self.error_code=400
 
-
+class OLibrary_version_not_found(Exception):
+    def _init_(self,message):
+        self.message=message
+        super()._init_(message)
+        self.error_code=402
