@@ -1,0 +1,101 @@
+No,Customer Name,Customer Id,Food Id,Food Name,Food Review
+1,Customer1,1e9b7260-7851-4f0a-9ac7-1d8d7a2e34c1,1a9c3a7a-421e-4a09-b5f0-80c6c53fb61a,Pizza,The pizza was absolutely delicious.
+2,Customer2,56b774b0-6f0d-4b84-90df-1635a1b3f6ad,Burger,The burger was quite tasty.
+3,Customer3,eda9a2e3-50d4-432f-8496-8d55e9d8e887,Sushi,The sushi was truly excellent.
+4,Customer4,7811a7f0-73d9-4899-85e0-ae1eb1d0a5ef,Pasta,The pasta was really yummy.
+5,Customer5,cb08139d-23c6-4d95-844e-6d87de2fb03f,Salad,The salad was very healthy and fresh.
+6,Customer6,3151b50e-9d21-445f-84f9-7439ffabb1b7,Steak,The steak was incredibly savory.
+7,Customer7,1723eb4d-7890-47c2-8d13-9e0b036ff82d,Ice Cream,The ice cream was sweet and delightful.
+8,Customer8,9f7b9a5f-6a1d-4b02-b83f-793b4d1e2c7a,Pizza,The pizza was delicious as always.
+9,Customer9,d883f74e-84a7-4b0b-a63d-33b05f6848ec,Burger,The burger had a tantalizing flavor.
+10,Customer10,5c038f7f-94a6-4b3b-823f-0b23b942c5f4,Sushi,The sushi was an absolute delight.
+11,Customer11,4b2e0537-8e7f-4d70-ba25-91bbd3cb0d7c,Pasta,The pasta tasted incredibly yummy.
+12,Customer12,ec249f4d-13ad-4e71-9a29-4f20e905b68b,Salad,The salad was fresh and nutritious.
+13,Customer13,0d22ae07-7d42-4ef7-a49a-7be3e2a30b85,Steak,The steak was savory and juicy.
+14,Customer14,6d1cdd6c-2aa9-48a5-9f17-50c5827eaa3e,Ice Cream,The ice cream was sweet and creamy.
+15,Customer15,0d3f1a13-3937-4e68-8e6a-662177e23c0b,Pizza,The pizza was absolutely delicious.
+16,Customer16,95e2823f-4b87-459d-a250-eb98a1a6349a,Burger,The burger was quite tasty.
+17,Customer17,0371f68d-01e3-4d72-948f-0e10ac1eab33,Sushi,The sushi was truly excellent.
+18,Customer18,5da2e9d6-5e73-4bc6-af79-69931e11e4b5,Pasta,The pasta was really yummy.
+19,Customer19,192ff8d4-9ddc-41de-a76d-3d8c14da4981,Salad,The salad was very healthy and fresh.
+20,Customer20,fc9e0f62-54c0-4f87-95d4-bd16a1545b99,Steak,The steak was incredibly savory.
+21,Customer21,8d3b7f67-eb4d-472c-94d9-2d8eddb363e0,Ice Cream,The ice cream was sweet and delightful.
+22,Customer22,5841fde7-87cc-47f7-9a73-bc9e73641e8a,Pizza,The pizza was delicious as always.
+23,Customer23,4b6c01a9-ec54-4d6b-8b6c-bba9c172dc11,Burger,The burger had a tantalizing flavor.
+24,Customer24,5c0d23a7-2c7f-4b4e-94cb-1d743aa6d909,Sushi,The sushi was an absolute delight.
+25,Customer25,5e0b3f36-3944-4d3d-8eb9-bb85b6a66541,Pasta,The pasta tasted incredibly yummy.
+26,Customer26,871bd328-dc95-4f7e-9bf2-1b3a7f8c6544,Salad,The salad was fresh and nutritious.
+27,Customer27,bbfe35a2-92e0-4f61-8c49-72f9b0075b25,Steak,The steak was savory and juicy.
+28,Customer28,2300f21a-4b27-4edf-bb01-6e4a623c7175,Ice Cream,The ice cream was sweet and creamy.
+29,Customer29,0cc5276d-6a3b-4b0d-b07c-0a5253de7e73,Pizza,The pizza was absolutely delicious.
+30,Customer30,5c2f127c-855c-45c3-9b47-c575fb75b4c5,Burger,The burger was quite tasty.
+31,Customer31,931c1f34-72a7-4f9b-bd13-9cc27c16e4db,Sushi,The sushi was truly excellent.
+32,Customer32,d64c5b8e-4b05-49f2-875e-1a812f8f0213,Pasta,The pasta was really yummy.
+33,Customer33,c48a65da-5919-4741-8b14-8a44f9b67b53,Salad,The salad was very healthy and fresh.
+34,Customer34,33c3a6a0-6c4c-48c7-af87-25c2e81c4f4f,Steak,The steak was incredibly savory.
+35,Customer35,983e59c7-42c1-4e45-bce6-6f125fe74f13,Ice Cream,The ice cream was sweet and delightful.
+36,Customer36,ee23c0da-4c4e-43ca-aefc-3f5365f83cd6,Pizza,The pizza was delicious as always.
+37,Customer37,a86eb2d2-8766-472d-8f52-85c60d00d3bb,Burger,The burger had a tantalizing flavor.
+38,Customer38,dd2e70c0-87ad-4c05-8f8a-39d465f8ca4c,Sushi,The sushi was an absolute delight.
+39,Customer39,26cdd09f-87d8-4c73-8150-0c06b86fc5bb,Pasta,The pasta tasted incredibly yummy.
+40,Customer40,6da9434a-8b9c-4d44-89f1-2e98d97da3dd,Salad,The salad was fresh and nutritious.
+41,Customer41,c64b4ec4-7b17-4e62-87f6-cfa204f244f1,Steak,The steak was savory and juicy.
+42,Customer42,23b5a4c9-973e-4644-9867-c76ac62f4f76,Ice Cream,The ice cream was sweet and creamy.
+43,Customer43,e5a2c3e1-abb7-40bf-8101-35e4cd94448c,Pizza,The pizza was absolutely delicious.
+44,Customer44,4a845a9c-ae6d-4fb2-a51f-aa843136e7e1,Burger,The burger was quite tasty.
+45,Customer45,217d4d9a-1b74-43a5-899d-699c6d8d6c3e,Sushi,The sushi was truly excellent.
+46,Customer46,55bbab69-d74c-41a0-b852-08c66778ef5c,Pasta,The pasta was really yummy.
+47,Customer47,18e9b151-7f7e-4cd3-bec7-5ab6b3f2518d,Salad,The salad was very healthy and fresh.
+48,Customer48,3f153c85-1de2-45db-bf17-2346f9dcdff6,Steak,The steak was incredibly savory.
+49,Customer49,726c547f-836d-4840-9d49-df52f36eb28c,Ice Cream,The ice cream was sweet and delightful.
+50,Customer50,a784d8df-424e-481f-af4b-365dbf98a835,Pizza,The pizza was delicious as always.
+51,Customer51,9130aa92-0b03-4db2-947e-7b6ae71755f2,Burger,The burger had a tantalizing flavor.
+52,Customer52,7b6b2d8e-2c25-49e5-b062-c0ae64e17ac4,Sushi,The sushi was an absolute delight.
+53,Customer53,0b475937-418e-48c2-aa5c-5b1b9a525d16,Pasta,The pasta tasted incredibly yummy.
+54,Customer54,92985795-cc04-4422-8d7e-4c5a5deea0e7,Salad,The salad was fresh and nutritious.
+55,Customer55,1f7b8ae0-7260-4622-94f7-5a7bf2f06b17,Steak,The steak was savory and juicy.
+56,Customer56,ef3d36f9-9291-4851-8e3c-32a3032f7c96,Ice Cream,The ice cream was sweet and creamy.
+57,Customer57,29be3d82-05d5-4576-95c4-4d2cfe17b14d,Pizza,The pizza was absolutely delicious.
+58,Customer58,96eef16c-78e2-43bf-8d45-c7ee54e6e04d,Burger,The burger was quite tasty.
+59,Customer59,abd2eeb0-efdb-4b22-9b22-11c0b747d26f,Sushi,The sushi was truly excellent.
+60,Customer60,44d49d87-9e05-4f2a-9bb3-2a5226c3c1bf,Pasta,The pasta was really yummy.
+61,Customer61,77c7d87e-2f09-49f1-9a21-3c0f7e13db84,Salad,The salad was very healthy and fresh.
+62,Customer62,cc28b01e-82a0-4db2-9147-d2aa32c156bb,Steak,The steak was incredibly savory.
+63,Customer63,524e09a5-0c66-4e5a-a00c-6b17f4a20a9b,Ice Cream,The ice cream was sweet and delightful.
+64,Customer64,39a4380f-67ad-4ed3-a923-e15d95c2c993,Pizza,The pizza was delicious as always.
+65,Customer65,60b1e3a6-b100-42cf-bfc2-07c4dbf1aa75,Burger,The burger had a tantalizing flavor.
+66,Customer66,65a16f97-04ed-4213-b897-5027c3c81d58,Sushi,The sushi was an absolute delight.
+67,Customer67,0ac831eb-176f-43a5-9b44-3a6b64af1c72,Pasta,The pasta tasted incredibly yummy.
+68,Customer68,603e14b4-0f1d-4d89-968d-4f13b5cfeb37,Salad,The salad was fresh and nutritious.
+69,Customer69,a1289c85-6a51-4b5c-8e8f-6e9e1af2c45c,Steak,The steak was savory and juicy.
+70,Customer70,1952ca7f-e876-44ab-98f1-3e6dbb34ac57,Ice Cream,The ice cream was sweet and creamy.
+71,Customer71,07dbb9ce-1611-4fc4-aee5-4a7eb47544ea,Pizza,The pizza was absolutely delicious.
+72,Customer72,2ac6b5b3-206d-4f0e-84aa-8584c4411cfd,Burger,The burger was quite tasty.
+73,Customer73,64eac61c-99c1-4525-8955-5d0e81273d9b,Sushi,The sushi was truly excellent.
+74,Customer74,e2ce5e35-5486-42c4-95c2-909b5b3ce9a0,Pasta,The pasta was really yummy.
+75,Customer75,14edfe24-fd05-44d7-9a07-9f1ec04aa4d2,Salad,The salad was very healthy and fresh.
+76,Customer76,7a646e41-c7c2-4d4b-85fb-d76ce1fb23f7,Steak,The steak was incredibly savory.
+77,Customer77,cf101ca0-ea3e-486e-95c2-e19f914e6b80,Ice Cream,The ice cream was sweet and creamy.
+78,Customer78,6f1ff59f-9ac0-4f8c-8d3e-86b1e6f0b4f0,Pizza,The pizza was absolutely delicious.
+79,Customer79,d39cc2a7-9a6b-4f0e-b0e5-cf8f687e0713,Burger,The burger was quite tasty.
+80,Customer80,1d68c4cd-29ec-4d5a-bafd-5bacece3a9a7,Sushi,The sushi was truly excellent.
+81,Customer81,103eb51a-b198-4da9-9c33-0e84978a438d,Pasta,The pasta was really yummy.
+82,Customer82,892c1f45-2f47-4b6f-8a4e-3bbf1d968aa1,Salad,The salad was very healthy and fresh.
+83,Customer83,90a04a36-6fe0-44e2-b6e4-56b530cb9a88,Steak,The steak was incredibly savory.
+84,Customer84,396ff375-e0d0-44a2-9b1e-47b4c9c11968,Ice Cream,The ice cream was sweet and creamy.
+85,Customer85,03d28b92-4c96-4840-9f8e-59b587c83f9d,Pizza,The pizza was absolutely delicious.
+86,Customer86,5ef03d18-0ac5-4d2b-975c-13a5a86a2d72,Burger,The burger was quite tasty.
+87,Customer87,2ac7b9ea-47b7-4c41-9f44-c59a6746b367,Sushi,The sushi was truly excellent.
+88,Customer88,10779cbf-700f-4daa-88a0-0da5877330d8,Pasta,The pasta was really yummy.
+89,Customer89,fb2cd7a1-d1c5-4d51-8d22-d0d9e546e1f7,Salad,The salad was very healthy and fresh.
+90,Customer90,e74b1920-cd97-48aa-91c9-5e335e69d88a,Steak,The steak was incredibly savory.
+91,Customer91,c20e5d0a-8905-4e3f-a0e2-9cd8f22146e1,Ice Cream,The ice cream was sweet and creamy.
+92,Customer92,3d76cece-465b-4c0b-b144-99e7a04cb46a,Pizza,The pizza was absolutely delicious.
+93,Customer93,72ff13c2-486c-42c3-9e9d-5d6ea845d1c3,Burger,The burger was quite tasty.
+94,Customer94,c37e1d7e-1be0-4e13-8c02-4a5f743e6940,Sushi,The sushi was truly excellent.
+95,Customer95,e46ec55a-1b2f-49c1-bd6d-e50e2ee6aa20,Pasta,The pasta was really yummy.
+96,Customer96,cebfdb12-ee2b-49a2-b271-6727f0e4ab68,Salad,The salad was very healthy and fresh.
+97,Customer97,fc31e82a-bdda-456b-a740-d8b99d76703d,Steak,The steak was incredibly savory.
+98,Customer98,6d23547a-1dfb-440d-8d4b-73b36bb27015,Ice Cream,The ice cream was sweet and creamy.
+99,Customer99,3ebf91b6-662c-4e08-a4cd-ec1ac95f859e,Pizza,The pizza was absolutely delicious.
+100,Customer100,9b8310a5-0b9d-4ba6-801f-0da38850b719,Burger,The burger was quite tasty.
