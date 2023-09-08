@@ -39,6 +39,16 @@ string decrypt(string s, int n)
     return s;
 }
 
+void bruteForce(string encrypted)
+{
+    cout << "Brute Force Decryption:\n";
+    for (int i = 0; i < 26; i++)
+    {
+        string decrypted = decrypt(encrypted, i);
+        cout << i << ": " << decrypted << endl;
+    }
+}
+
 int main()
 {
     string s;
@@ -50,13 +60,21 @@ int main()
     cout << "Enter the num(0-25): ";
     cin >> n;
 
+    cout << endl;
+
     string encrypted = encrypt(s, n);
     cout << "Cipher(Encryption) text: \n";
     cout << encrypted << endl;
 
+    cout << endl;
+
     string decrypted = decrypt(encrypted, n);
     cout << "Decryption text: \n";
     cout << decrypted << endl;
+
+    cout << endl;
+
+    bruteForce(encrypted);
 
     return 0;
 }
