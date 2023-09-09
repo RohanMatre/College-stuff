@@ -1,0 +1,50 @@
+def encrypt(plaintext, key):
+    ciphertext = ""
+    keyLength = len(key)
+
+    for i in range(len(plaintext)):
+        plainChar = plaintext[i]
+        keyChar = key[i % keyLength]
+
+        if plainChar.isalpha():
+            shift = ord(keyChar) - ord('A')
+            if plainChar.islower():
+                ciphertext += chr(((ord(plainChar) - ord('a') + shift) % 26) + ord('a'))
+            else:
+                ciphertext += chr(((ord(plainChar) - ord('A') + shift) % 26) + ord('A'))
+        else:
+            ciphertext += plainChar
+
+    return ciphertext
+
+def decrypt(ciphertext, key):
+    plaintext = ""
+    keyLength = len(key)
+
+    for i in range(len(ciphertext)):
+        cipherChar = ciphertext[i]
+        keyChar = key[i % keyLength]
+
+        if cipherChar.isalpha():
+            shift = ord(keyChar) - ord('A')
+            if cipherChar.islower():
+                plaintext += chr(((ord(cipherChar) - ord('a') - shift + 26) % 26) + ord('a'))
+            else:
+                plaintext += chr(((ord(cipherChar) - ord('A') - shift + 26) % 26) + ord('A'))
+        else:
+            plaintext += cipherChar
+
+    return plaintext
+
+def main():
+    plaintext = input("Enter the Plain text: ")
+    key = input("Enter the Key: ")
+
+    encrypted = encrypt(plaintext, key)
+    print("Cipher text:", encrypted)
+
+    decrypted = decrypt(encrypted, key)
+    print("Decryption text:", decrypted)
+
+if __name__ == "__main__":
+    main()
