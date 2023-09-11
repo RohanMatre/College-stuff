@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Apply yellow background to odd-numbered rows */
+tr.odd {
+  background-color: yellow;
+}
+
+/* Apply red background to even-numbered rows */
+tr.even {
+  background-color: red;
+}
+
+/* Style table headers (optional) */
+th {
+  background-color: lightgray;
+}
